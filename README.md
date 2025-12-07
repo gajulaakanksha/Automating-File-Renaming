@@ -1,6 +1,6 @@
 # Automating-File-Renaming
 
-This project automating files renaming using Kiro. Instead of manually renaming 100+ photos, this script renames all files inside a folder automatically, cleanly, and consistently.
+This project is to automating files renaming using Kiro. Instead of manually renaming 100+ photos, this script renames all files inside a folder automatically, cleanly, and consistently.
 
 Problem
 
