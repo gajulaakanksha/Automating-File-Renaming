@@ -4,63 +4,45 @@ This project is to automating files renaming using Kiro. Instead of manually ren
 
 Problem
 
-Managing photos manually is time-consuming.
-Renaming 100+ files by hand is boring, repetitive, and error-prone.
+Managing photos manually is time-consuming. Renaming 100+ files by hand is boring, repetitive, and error-prone.
+Photos exported from your phone (IMG_001, IMG_002…)
+PDFs downloaded from email (document(1).pdf, document(2).pdf…)
+Dataset files with inconsistent naming
+Project assets that require a uniform naming format
 
-Problem
+Common issues include:
 
-Renaming dozens of files manually is:
+Renaming each file manually takes minutes or hours
+High chance of naming mistakes
+No way to prefix, suffix, or reorder files easily
+Repeating this task across multiple folders becomes frustrating
+This is exactly the kind of repetitive, rule-based task that should be automated.
 
-Time-consuming
-
-Repetitive
-
-Error-prone
-
-Mentally exhausting
 Example:
 Your camera or mobile exports files like:
 IMG_20240102_113244.png
 IMG_20240102_113245.png
 DCIM_0001.JPG
 
-
 Solution
 
-I built an automated file renaming script with Kiro.
+Python provides everything needed to rename files programmatically using just a few lines of code. But instead of manually designing the entire script from scratch, we’ll use Kiro to help plan, generate, and refine the project quickly.
+
 The script:
-
-Reads all image files
-
-Normalizes file extensions
-
-Applies a clean naming pattern
-
-Avoids conflicts
+1. Reads all image files
+2. Normalizes file extensions
+3. Applies a clean naming pattern
+4. Avoids conflicts
 
 Renames photos automatically
 
 Includes Kiro-generated specs, design, and tasks
-
-Solution
-
-I automated the entire task using a Python-based File Renamer generated with the help of Kiro.
-
-This script:
-
-Reads all files inside a given folder
-
-Ignores non-image files if needed
-
-Normalizes extensions (.jpg, .jpeg, .png)
 
 Renames files into a clean sequence:
 
 photo1.png
 photo2.png
 photo3.png
-
-
 
 Project Structure
 
