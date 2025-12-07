@@ -85,7 +85,6 @@ file-renamer-project/
 │
 ├── file_renamer.py
 │
-├── .gitignore
 │
 └── README.md
 ```
